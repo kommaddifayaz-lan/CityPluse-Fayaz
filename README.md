@@ -32,6 +32,8 @@ rm -rf folder-name
 
 > Warning: `rm -rf` permanently deletes data. Double-check the path before running it.
 
+![Removing Files and Directories Recursively](task2.png)
+
 ## Task 3: Rename Files and Check Disk Usage
 
 ### Rename a File or Directory
@@ -69,6 +71,7 @@ du -sh
 # Show the size of a specific folder
 du -sh folder-name
 ```
+![Renaming files and checking disk using](task3.png)
 
 ![Terminal commands and file listing](1.png)
 
@@ -116,6 +119,8 @@ Example permission modes:
 - `755`: owner can read/write/execute; group and others can read/execute
 - `777`: all users have read, write, and execute permissions
 
+  ![Linux permissions](task4.png)
+
 ## Task 5: List Running Processes
 
 Use `ps` to view processes for the current terminal:
@@ -143,6 +148,8 @@ top
 ```
 
 Press `q` to exit `top`.
+
+ ![Linux permissions](task5.png)
 
 ![WSL command check](wsl-installed.png)
 
